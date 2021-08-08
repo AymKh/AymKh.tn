@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  font-family: "Roboto Mono", sans-serif, Arial, Helvetica;
+  line-height: 1.5;
+  font-size: 1rem;
+  background-color: #fff;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+#wrapper {
+  height: 100%;
+  width: 70%;
+  max-width: 1000px;
+  margin: 2rem auto;
+  h1 {
+    color: #262626;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  p {
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+    color: #858585;
+  }
+  
+  #socials h3 {
+    color: #3CACFF;
+  }
+  
+  #socials #links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #262626;
+    font-size: 1rem;
+  }
+  
+  #contactButton {
+    margin-top: 2rem;
+    width: auto;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    background-color: #fff;
+    color: #262626;
+    border: 1px solid #262626;
+    border-radius: .7rem;
+    cursor: pointer;
+  }
+  
+  #contactButton:hover {
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #wrapper {
+    height: 100%;
+    width: 100%;
+    padding: 0 1rem;
+    display: block;
+  }
+}
+/*# sourceMappingURL=index.css.map */
