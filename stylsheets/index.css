@@ -25,52 +25,99 @@ body, html {
 #wrapper h1 {
   color: #262626;
   font-size: 3rem;
-  margin-bottom: 2rem;
+}
+
+#wrapper h3 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin: 1rem 0;
+  text-decoration: underline;
 }
 
 #wrapper p {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 200;
-  margin-bottom: 2rem;
   color: #858585;
 }
 
-#wrapper #socials h3 {
-  color: #3CACFF;
-}
-
 #wrapper #socials #links a {
-  display: inline-block;
   text-decoration: none;
-  color: #262626;
+}
+
+#wrapper #socials #links a i {
+  font-size: 1.5rem;
+}
+
+#wrapper #skills #skills-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#wrapper #skills dl {
+  display: inline-block;
+  height: 100%;
+  margin-right: 3rem;
+}
+
+#wrapper #skills dt {
+  font-weight: 400;
+}
+
+#wrapper #skills dd {
   font-size: 1rem;
+  font-weight: 200;
+  color: #858585;
 }
 
-#wrapper #contactButton {
-  margin-top: 2rem;
-  width: auto;
-  -ms-flex-item-align: end;
-  align-self: flex-end;
-  font-size: 1.2rem;
-  padding: .5rem 1rem;
-  background-color: #fff;
-  color: #262626;
-  border: 1px solid #262626;
-  border-radius: .7rem;
-  cursor: pointer;
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: #000;
 }
 
-#wrapper #contactButton:hover {
-  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+.icon-3d:hover {
+  -webkit-animation: icon3d 200ms infinite;
+  animation: icon3d 200ms infinite;
 }
 
-@media only screen and (max-width: 600px) {
-  #wrapper {
-    height: 100%;
-    width: 100%;
-    padding: 0 1rem;
-    display: block;
+@-webkit-keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+  }
+  25% {
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+  }
+  50% {
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+  }
+  75% {
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+  }
+  100% {
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+  }
+  25% {
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+  }
+  50% {
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+  }
+  75% {
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+  }
+  100% {
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
   }
 }
 /*# sourceMappingURL=index.css.map */
