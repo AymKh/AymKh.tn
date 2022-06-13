@@ -1,7 +1,2 @@
 node_modules
-/.idea
 public/
-/node_modules
-exampleSite/
-.DS_Store
-static/main.css
