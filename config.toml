@@ -1,3 +1,44 @@
 baseURL = 'https://aymkh.tn/'
 languageCode = 'en-us'
-title = 'My Personal website'
+title = 'Aymen Khedhriya'
+theme = "digitalgarden"
+
+[menu]
+[[menu.main]]
+  name = 'Home'
+  url = '/'
+  weight = 1
+[[menu.main]]
+  name = 'Portfolio'
+  url = '/portfolio'
+  weight = 2
+[[menu.main]]
+  name = 'Stack'
+  url = '/skills'
+  weight = 2
+
+# Social icons
+[[menu.social]]
+  name = 'GitHub'
+  url = 'https://github.com/aymkh'
+  weight = 2
+[[menu.social]]
+  name = 'LinkedIn'
+  url = 'https://linkedin.com/in/aymkh'
+  weight = 3
+[[menu.social]]
+  name = 'Instagram'
+  url = 'https://instagram.com/__aymkh'
+  weight = 4
+[[menu.social]]
+  name = 'Email'
+  url = 'mailto:yo@aymkh.tn'
+  weight = 5
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
