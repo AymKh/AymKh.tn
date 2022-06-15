@@ -34,11 +34,3 @@ theme = "digitalgarden"
   name = 'Email'
   url = 'mailto:yo@aymkh.tn'
   weight = 4
-
-# # syntax highlight settings
-# [markup]
-#   [markup.highlight]
-#     style = "dracula"
-#   [markup.goldmark.renderer]
-#     # Enable to include inline HTML
-#     unsafe = true
