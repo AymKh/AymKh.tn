@@ -1,6 +1,8 @@
 ---
 title: Stack I use
 description: Tools I use everyday
+draft: true
+
 ---
 **Full-Stack JavaScript**  
 JavaScript, React JS, Angular
