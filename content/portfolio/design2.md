@@ -2,7 +2,7 @@
 title: ISLAI Béja virtual tour
 date: 06-2022
 images:
-- https://i.imgur.com/kO1lak0.jpg
+- https://img.itch.zone/aW1hZ2UvMTA2NDM2Ni82MTU0MTg1LnBuZw==/original/f6kiHz.png
 description: A 3D virtual tour of ISLAI Béja
 ---
 
