@@ -5,7 +5,6 @@ menu:
   main:
     name: Stack
     weight: 2
-draft: true
 
 ---
 **Full-Stack JavaScript**  
