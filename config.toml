@@ -1,36 +1,24 @@
-baseURL = 'https://aymkh.tn'
-languageCode = 'en-us'
-title = 'Aymen Khedhriya'
+baseURL = "https://aymkh.tn"
+languageCode = "en-us"
 theme = "digitalgarden"
-
-[menu]
+title = "Aymen Khedhriya"
 [[menu.main]]
-  name = 'Home'
-  url = '/'
-  weight = 1
-[[menu.main]]
-  name = 'Stack'
-  url = '/stack'
-  weight = 2
-[[menu.main]]
-  name = 'Portfolio'
-  url = '/portfolio'
-  weight = 3
-
-# Social icons
+name = "Home"
+url = "/"
+weight = 1
 [[menu.social]]
-  name = 'GitHub'
-  url = 'https://github.com/aymkh'
-  weight = 1
+name = "Email"
+url = "mailto:yo@aymkh.tn"
+weight = 4
 [[menu.social]]
-  name = 'LinkedIn'
-  url = 'https://linkedin.com/in/aymkh'
-  weight = 2
+name = "Instagram"
+url = "https://instagram.com/__aymkh"
+weight = 3
 [[menu.social]]
-  name = 'Instagram'
-  url = 'https://instagram.com/__aymkh'
-  weight = 3
+name = "LinkedIn"
+url = "https://linkedin.com/in/aymkh"
+weight = 2
 [[menu.social]]
-  name = 'Email'
-  url = 'mailto:yo@aymkh.tn'
-  weight = 4
+name = "GitHub"
+url = "https://github.com/aymkh"
+weight = 1
