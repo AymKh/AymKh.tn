@@ -10,6 +10,6 @@ A Virtual tour inside the **Higher Institute of Applied Languages and Computer S
 Done using Blender & Unity 3D.  
 This allows you to Explore every corner of ISLAIB without having to physically be there.
 
-[Quick preview](https://www.youtube.com/watch?v=43a0rV_uPxA)
+Here's a [Short video](https://www.youtube.com/watch?v=43a0rV_uPxA) showcasing the ISLAI Beja institution through the virtual tour.
 
-The is deployed on [itch.io](https://aymkh.itch.io/islaib-virtual-tour)
+You can checkout the live demo hosted on [itch.io](https://aymkh.itch.io/islaib-virtual-tour)
