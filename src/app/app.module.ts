@@ -16,6 +16,7 @@ import { BioComponent } from './components/main-tabs/bio/bio.component';
 import { PortfolioComponent } from './components/main-tabs/portfolio/portfolio.component';
 import { StackComponent } from './components/main-tabs/stack/stack.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
