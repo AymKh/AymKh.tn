@@ -35,4 +35,11 @@ $ui-theme: mat.define-light-theme((
 
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { 
+  margin: 0; 
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+@import "mixins";
