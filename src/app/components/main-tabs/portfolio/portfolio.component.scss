@@ -4,10 +4,18 @@
 section{
     @include section;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1rem;
 
     .card {
         max-width: 400px;
+
+        mat-card-content{
+            h1{
+                font-size: 1.2rem;
+                text-align: left;
+            }
+        }
+
     }
 }

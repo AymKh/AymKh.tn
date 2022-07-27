@@ -1,61 +1,30 @@
 <section>
 
-    <mat-card class="card">
-        <img mat-card-image src="https://raw.githubusercontent.com/openSource-jesaym/cdn/main/mean-dockerized/screenshot.png">
+    <mat-card class="card" *ngFor="let project of projects">
+        <img mat-card-image src="{{project.coverImage}}">
         <mat-card-content>
-            <h1>
-                Containerized Mean Stack Application.
-            </h1>
+            <h1>{{project.name}}</h1>
         </mat-card-content>
+
+        <mat-divider></mat-divider>
+
+        <mat-chip-list class="chip">
+            <mat-chip class="box" *ngFor="let t of project.tags">{{t}}</mat-chip>
+        </mat-chip-list>
+
+        <mat-divider></mat-divider>
+
         <mat-card-actions>
-            <a mat-button href="https://github.com/AymKh/Dockerized-MEAN" target="_blank">GitHub <mat-icon>north_east</mat-icon></a>
-            <a mat-button href="#" target="_blank">DEMO <mat-icon>north_east</mat-icon></a>
-            <a mat-button routerLink="#">Read More <mat-icon>zoom_out_map</mat-icon></a>
+            <a mat-button href="{{project.github}}" target="_blank" matTooltip="Source code">
+                <mat-icon>code</mat-icon>
+            </a>
+            <a mat-button href="{{project.demo}}" target="_blank" matTooltip="Live demo">
+                <mat-icon>language</mat-icon>
+            </a>
+            <a mat-button routerLink="{{project.readmore}}" matTooltip="Read more">
+                <mat-icon>read_more</mat-icon>
+            </a>
         </mat-card-actions>
+
     </mat-card>
-
-    <mat-card class="card">
-        <img mat-card-image src="https://raw.githubusercontent.com/openSource-jesaym/cdn/main/fnara/fnara.png">
-        <mat-card-content>
-            <h1>
-                Open source marketplace to buy, sell and trade goods.
-            </h1>
-        </mat-card-content>
-        <mat-card-actions>
-            <a mat-button href="https://github.com/openSource-jesaym/fnara.tn" target="_blank">GitHub <mat-icon>north_east</mat-icon></a>
-            <a mat-button href="https://fnara.tn" target="_blank">DEMO <mat-icon>north_east</mat-icon></a>
-            <a mat-button routerLink="#">Read More <mat-icon>zoom_out_map</mat-icon></a>
-        </mat-card-actions>
-    </mat-card>
-
-    <mat-card class="card">
-        <img mat-card-image src="https://github.com/openSource-jesaym/cdn/blob/main/ivc/screenshot.png?raw=true">
-        <mat-card-content>
-            <h1>
-                ReactJS landing page using Material UI.
-            </h1>
-        </mat-card-content>
-        <mat-card-actions>
-            <a mat-button href="https://github.com/islaibvscorona/ivc.tn" target="_blank">GitHub <mat-icon>north_east</mat-icon></a>
-            <a mat-button href="https://ivc.netlify.app/" target="_blank">DEMO <mat-icon>north_east</mat-icon></a>
-            <a mat-button routerLink="#">Read More <mat-icon>zoom_out_map</mat-icon></a>
-        </mat-card-actions>
-    </mat-card>
-
-    <mat-card class="card">
-        <img mat-card-image src="https://github.com/openSource-jesaym/cdn/blob/main/fun-facts-js/screenshot.png?raw=true">
-        <mat-card-content>
-            <h1>
-                Fetching random facts from a public API using vanilla JavaScript
-            </h1>
-        </mat-card-content>
-        <mat-card-actions>
-            <a mat-button href="https://github.com/AymKh/FunFacts-fetch-Api" target="_blank">GitHub <mat-icon>north_east</mat-icon></a>
-            <a mat-button href="https://funcfacts-aymkh.netlify.app/" target="_blank">DEMO <mat-icon>north_east</mat-icon></a>
-            <a mat-button routerLink="#">Read More <mat-icon>zoom_out_map</mat-icon></a>
-        </mat-card-actions>
-    </mat-card>
-
-
-
 </section>
