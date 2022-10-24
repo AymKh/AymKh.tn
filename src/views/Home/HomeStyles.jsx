@@ -13,13 +13,29 @@ const HomeLayout = styled.section`
         width: 700px;
         margin-bottom: 1rem;
     }
+
+    #links{
+        a{
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: red;
+
+            &:first-child{
+                font-size: 1.3rem;
+            }
+
+            &:hover{
+                text-decoration: underline;
+                color: blue;
+            }
+        }
+    }
     
     main{
         width: 700px;
-        /* border-width: 2px;
-        border-style: solid;
-        border-image: linear-gradient(71.18deg, rgb(0, 34, 255) -27.32%, rgb(0, 34, 255) -16.39%, rgb(81, 121, 254) -7.38%, rgb(165, 237, 182) 30.59%, rgb(250, 232, 90) 46.06%, rgb(253, 172, 62) 62.61%, rgb(255, 92, 0) 75.82%) 1;
-        border-radius: .5rem; */
     }
 `;
 
