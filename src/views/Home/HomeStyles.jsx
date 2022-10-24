@@ -37,6 +37,23 @@ const HomeLayout = styled.section`
     main{
         width: 700px;
     }
+
+    /* RESPONSIVNESS */
+    @media (max-width: 767px){
+        height: 100%;
+        width: 100%;
+
+        display: block;
+        padding: 0 1rem;
+
+        header, main{
+            width: 100%;
+            text-align: justify;
+        }
+        header{
+            margin-top: 5rem;
+        }
+    }
 `;
 
 export default HomeLayout;
