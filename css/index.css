@@ -1,1 +1,36 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+main {
+  max-width: 500px;
+  text-align: justify;
+  padding: 0 1rem;
+}
+main img {
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+main p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+main a {
+  text-decoration: none;
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */
