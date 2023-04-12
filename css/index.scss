@@ -13,7 +13,7 @@ body {
     // align-items: center;
     justify-content: center;
 
-    font-family: sans-serif;
+    font-family: monospace;
     font-size: 1rem;
     line-height: 1.5;
     color: #fff;
@@ -30,13 +30,23 @@ main {
         margin: auto;
     }
 
-    p {
-        font-size: 1rem;
-        margin: 1rem 0;
+    h1 {
+        text-transform: uppercase;
+        font-weight: 400;
     }
 
-    a {
-        text-decoration: none;
-        color: #fff;
+    p {
+        font-size: .8rem;
+        margin: .5rem 0;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: #2374e1;
+        }
     }
 }

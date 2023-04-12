@@ -10,7 +10,7 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: 1rem;
   line-height: 1.5;
   color: #fff;
@@ -26,11 +26,19 @@ main img {
   width: 300px;
   margin: auto;
 }
-main p {
-  font-size: 1rem;
-  margin: 1rem 0;
+main h1 {
+  text-transform: uppercase;
+  font-weight: 400;
 }
-main a {
+main p {
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+main nav {
+  width: 100%;
+  text-align: center;
+}
+main nav a {
   text-decoration: none;
-  color: #fff;
+  color: #2374e1;
 }/*# sourceMappingURL=index.css.map */
