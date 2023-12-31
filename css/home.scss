@@ -1,0 +1,33 @@
+img {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1rem 0;
+
+    li {
+        font-size: .8rem;
+    }
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: #2374e1;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
