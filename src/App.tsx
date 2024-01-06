@@ -1,9 +1,15 @@
-import HomePage from "./pages/home"
+import { RouterProvider } from "react-router-dom"
+import { router } from "./router"
+import { LoadingFallback } from "./components/loading-fallback"
+
 
 function App() {
   return (
     <>
-      <HomePage />
+      <RouterProvider
+        router={router}
+        fallbackElement={<LoadingFallback />}
+      />
     </>
   )
 }
