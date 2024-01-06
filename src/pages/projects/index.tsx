@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async"
 import SaasCard from "../../components/saas-card"
 import { TProject } from "../../types/projects"
 
@@ -22,6 +23,9 @@ export default function ProjectsPage() {
     ]
     return (
         <div className='w-full h-screen p-8 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-4'>
+            <Helmet>
+                <title>Lead projects</title>
+            </Helmet>
             {
                 projectsArray.map((saas: TProject) => {
                     return <SaasCard data={saas} />

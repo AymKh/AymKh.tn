@@ -1,8 +1,12 @@
 import { Image, Link, Tooltip } from '@nextui-org/react'
+import { Helmet } from 'react-helmet-async'
 
 export default function HomePage() {
     return (
         <div className='w-full h-screen flex flex-col items-center justify-center gap-4'>
+            <Helmet>
+                <title>Potfolio</title>
+            </Helmet>
             <Tooltip content="@me 👋">
                 <Image
                     width={200}

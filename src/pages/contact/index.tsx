@@ -1,8 +1,13 @@
 import { Button, Divider, Input, Snippet, Textarea } from '@nextui-org/react'
+import { Helmet } from 'react-helmet-async'
 
 export default function ContactPage() {
     return (
         <div className='w-full h-screen flex flex-col items-center justify-center gap-4'>
+
+            <Helmet>
+                <title>Get in touch</title>
+            </Helmet>
 
             <h1 className='lg:text-left text-center'>E-mail me @ <Snippet variant="bordered" symbol="">aymen.khedhriya@gmail.com</Snippet></h1>
 
