@@ -1,4 +1,4 @@
-import { Button, Divider, Input, Snippet, Textarea } from '@nextui-org/react'
+import { Divider, Input, Snippet, Textarea } from '@nextui-org/react'
 import { Helmet } from 'react-helmet-async'
 
 export default function ContactPage() {
@@ -13,7 +13,14 @@ export default function ContactPage() {
 
             <Divider className="my-4" />
 
-            <form name="aymkh-clients-submissions" method="POST" data-netlify="true" className='lg:max-w-[500px] w-4/5'>
+            <form
+                name="aymkh-clients-submissions"
+                method="POST"
+                className='lg:max-w-[500px] w-4/5'
+                data-netlify="true"
+                netlify-honeypot="bot-field"
+            >
+                <input type="hidden" name="form-name" value="aymkh-clients-submissions" />
                 <Input
                     type="text"
                     label="Name"
@@ -31,9 +38,7 @@ export default function ContactPage() {
                     className="w-full my-4"
                     name='client-message'
                 />
-                <Button className='w-full' color="success" type='submit'>
-                    Send Message
-                </Button>
+                <input className='w-full' type="submit" value="Submit message" />
             </form >
         </div >
     )
