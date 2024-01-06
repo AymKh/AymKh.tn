@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Tooltip } from '@nextui-org/react'
+import { Image, Link, Tooltip } from '@nextui-org/react'
 
 export default function HomePage() {
     return (
@@ -18,6 +18,17 @@ export default function HomePage() {
                 <li>I lead projects from planning to deployment.</li>
                 <li>I provide consultancy services.</li>
             </ul>
+            <div>
+                <Link isBlock showAnchorIcon isExternal href="https://github.com/aymkh" color="foreground">
+                    GitHub
+                </Link>
+                <Link isBlock showAnchorIcon isExternal href="https://www.linkedin.com/in/aymkh/" color="secondary">
+                    LinkedIn
+                </Link>
+                <Link isBlock href="/contact" color="success">
+                    Hire me!
+                </Link>
+            </div>
         </div>
     )
 }
