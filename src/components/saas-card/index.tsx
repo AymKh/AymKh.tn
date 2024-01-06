@@ -14,18 +14,20 @@ export default function SaasCard({ data }: { data: TProject }) {
             <CardBody>
                 <p>{data.project_description}</p>
             </CardBody>
-            <Divider />
             {
                 data.project_on_github &&
-                <CardFooter>
-                    <Link
-                        isExternal
-                        showAnchorIcon
-                        href={data.project_on_github}
-                    >
-                        Visit source code on GitHub.
-                    </Link>
-                </CardFooter>
+                <>
+                    <Divider />
+                    <CardFooter>
+                        <Link
+                            isExternal
+                            showAnchorIcon
+                            href={data.project_on_github}
+                        >
+                            Visit source code on GitHub.
+                        </Link>
+                    </CardFooter>
+                </>
             }
         </Card>
     )
