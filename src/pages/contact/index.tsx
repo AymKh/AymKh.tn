@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button, Divider, Input, Snippet, Textarea } from '@nextui-org/react'
 
 export default function ContactPage() {

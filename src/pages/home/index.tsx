@@ -1,4 +1,3 @@
-import React from 'react'
 import { Image, Link, Tooltip } from '@nextui-org/react'
 
 export default function HomePage() {
